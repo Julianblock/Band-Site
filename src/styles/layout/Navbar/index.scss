@@ -1,0 +1,41 @@
+.navbar {
+    background: #000;
+    height: 63px;
+    box-shadow: 0px 0px 15px #000;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    color: $grudge-green;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: sticky;
+
+    &-img {
+        height: 55px;
+    }
+
+    &-items {
+        display: flex;
+        align-items: center;
+        height: 100%;
+
+        &-text {
+            margin-right: 12px;
+            transition: .4s;
+            font-size: 17px;
+            color: $grudge-green;
+            text-decoration: unset;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            width: 83px;
+            justify-content: center;
+        }
+        
+        &-text:hover {
+            color: white;
+        }
+    }
+    
+}

@@ -1,0 +1,16 @@
+
+// Importing Variable names
+@import './variables.scss';
+
+// Importing the layout
+@import './layout/Navbar/index.scss';
+@import './layout/Footer/index.scss';
+
+// Importing the components
+@import './components/Home/index.scss';
+
+body {
+    margin: 0;
+    font-family: sans-serif, helvetica;
+    font-weight: lighter;
+}
